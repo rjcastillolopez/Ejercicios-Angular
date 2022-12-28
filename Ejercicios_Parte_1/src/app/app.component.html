@@ -1,0 +1,180 @@
+<style>
+  :host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    font-weight: 600;
+    box-shadow: 0 0 10px #ddd;
+  }
+
+  a,
+  a:visited,
+  a:hover {
+    color: #000;
+    text-decoration: none;
+    padding: 0 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: medium;
+    font-weight: 600;
+  }
+
+  a:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  span {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 25px;
+    font-size: large;
+  }
+
+  .btn {
+    all: unset;
+    border-radius: 4px;
+    border: 2px solid skyblue;
+    height: 8px;
+    width: 80px;
+    margin: 5px 25px 5px;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .btn:hover {
+    background-color: skyblue;
+  }
+
+  .btn-content {
+    color: skyblue;
+  }
+
+  a.btn-content:hover {
+    color: #fff;
+  }
+
+  .top-content {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .info {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: large;
+    font-weight: 150;
+    padding: 10px;
+  }
+
+  .card-container {
+    position: absolute;
+    top: 230px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .card {
+    all: unset;
+    border-radius: 4px;
+    border: 2px solid #eee;
+    background-color: rgba(0, 0, 0, 0.01);
+    height: 250px;
+    width: 220px;
+    margin: 8px 15px;
+    padding: 16px;
+    box-shadow: 3px 3px 3px #eee;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item {
+    font-size: large;
+    font-weight: 500;
+  }
+</style>
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <span>CERTUS</span>
+  <div class="spacer"></div>
+  <!-- Navigator options: Caracteristicas, Soporte para empresas, precios, Inscribirse -->
+  <div class="toolbar-links">
+    <a href="https://www.certus.com/">Caracteristicas</a>
+    <a href="https://www.certus.com/">Soporte para empresas</a>
+    <a href="https://www.certus.com/">Precios</a>
+  </div>
+  <button class="btn" title="Inscribirse">
+    <a class="btn-content" href="https://www.certus.com/">Inscribirse</a>
+  </button>
+</div>
+
+<!-- Content  -->
+<div class="top-content">
+  <h1>Precio</h1>
+  <p class="info">
+    Adquiere uno de nuestros planes en promoción
+  </p>
+</div>
+
+<!-- Cards -->
+<div class="card-container">
+  <div class="card">
+    <p class="item">Libre</p>
+  </div>
+  <div class="card">
+    <p class="item">Pro</p>
+  </div>
+  <div class="card">
+    <p class="item">Empresa</p>
+  </div>
+</div>
