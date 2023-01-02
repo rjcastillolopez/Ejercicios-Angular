@@ -1,8 +1,9 @@
 button {
-   background-color: #4caf50; /* Green */
+   //background-color: #4caf50; /* Green */
+   width: 100px;
    border: none;
    color: white;
-   padding: 10px 40px;
+   padding: 10px 20px;
    text-align: center;
    text-decoration: none;
    font-size: 14px;

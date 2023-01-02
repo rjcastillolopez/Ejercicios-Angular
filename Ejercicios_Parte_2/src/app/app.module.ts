@@ -6,6 +6,7 @@ import { ButtonComponent } from './button/button.component';
 import { HeaderComponent } from './header/header.component';
 import { InputComponent } from './input/input.component';
 import { ResultComponent } from './result/result.component';
+import { BorderResultDirective } from './border-result.directive';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ResultComponent } from './result/result.component';
     HeaderComponent,
     ButtonComponent,
     InputComponent,
-    ResultComponent
+    ResultComponent,
+    BorderResultDirective
   ],
   imports: [
     BrowserModule,
