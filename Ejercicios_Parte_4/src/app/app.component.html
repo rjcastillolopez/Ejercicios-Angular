@@ -1,0 +1,59 @@
+<div class="calculator">
+   <div class="container">
+      <div class="row mb-2">
+         <div class="col-md-12">
+            <h1 class="text-center text-primary">Calculadora</h1>
+         </div>
+      </div>
+      <div class="row mb-3">
+         <div class="col-md-12">
+            <div class="form-group">
+               <label>Ingrese el primer valor: </label>
+               <input type="number" class="form-control" [(ngModel)]="valor1">
+            </div>
+         </div>
+      </div>
+      <div class="row mb-3">
+         <div class="col-md-12">
+            <div class="form-group">
+               <label>Ingrese el segundo valor: </label>
+               <input type="number" class="form-control" [(ngModel)]="valor2">
+            </div>
+         </div>
+      </div>
+      <div class="row mb-3">
+         <div class="col-md-12">
+            <div class="form-group">
+               <label>Operación:</label>
+               <select class="form-select" [(ngModel)]="operacion">
+                  <option disabled selected hidden value="">Elija una operación</option>
+                  <option *ngFor="let operacion of operaciones" [ngValue]="operacion"> {{
+                     operacion }} </option>
+               </select>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-12">
+            <label>Resultado:</label>
+         </div>
+         <div class="col-md-12">
+            <div *ngIf="operacion == ''">
+               <p [ngStyle]="{'color': 'red'}">(No eligió operación)</p>
+            </div>
+            <div *ngIf="operacion == 'Sumar'">
+               <p [ngStyle]="{'color': 'blue'}">{{ valor1 + valor2 }}</p>
+            </div>
+            <div *ngIf="operacion == 'Restar'">
+               <p [ngStyle]="{'color': 'green'}">{{ valor1 - valor2 }}</p>
+            </div>
+            <div *ngIf="operacion == 'Multiplicar'">
+               <p [ngStyle]="{'color': 'orange'}">{{ valor1 * valor2 }}</p>
+            </div>
+            <div *ngIf="operacion == 'Dividir'">
+               <p [ngStyle]="{'color': 'purple'}">{{ valor1 / valor2 }}</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
