@@ -1,0 +1,42 @@
+<h1>Contact form</h1>
+<form (ngSubmit)="onSubmit()" [formGroup]="contactForm">
+   <div class="mb-4">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" required
+         formControlName="name">
+      <div class="valid-feedback">Valid</div>
+      <div *ngIf="contactForm.get('name')?.touched && contactForm.get('name')?.errors?.['required']"
+         class="text text-danger mt-2">This field is required.</div>
+      <div *ngIf="contactForm.get('name')?.touched && contactForm.get('name')?.errors?.['minlength']"
+         class="text text-danger mt-2">Name must be longer than
+         {{contactForm.get('name')?.errors?.['minlength'].requiredLength}} characters.</div>
+   </div>
+   <div class="mb-4 form-check">
+      <label for="checkAdult" class="form-label">Are you over 18 years of age?</label>
+      <input type="checkbox" class="form-check-input" id="checkAdult" name="checkAdult" required
+         formControlName="checkAdult">
+      <div *ngIf="contactForm.get('checkAdult')?.touched && contactForm.get('checkAdult')?.errors?.['required']"
+         class="text text-danger mt-2">This field is required.</div>
+   </div>
+   <div class="mb-4">
+      <label for="department" class="form-label">Department</label>
+      <select name="department" class="form-select form-select-sm" id="department" required
+         formControlName="department">
+         <option disabled selected hidden value="">
+            {{contactForm.get('department')?.value}}</option>
+         <option value="marketing">Marketing</option>
+         <option value="sales">Sales</option>
+         <option value="other">Other</option>
+      </select>
+   </div>
+   <div class="mb-4">
+      <label for="comment" class="form-label">Comment</label>
+      <textarea name="comment" class="form-control" id="comment" rows="5" cols="30" placeholder="Leave a comment..."
+         formControlName="comment"></textarea>
+   </div>
+   <div class="d-grid gap-2 col-4 float-end">
+      <button type="submit" class="btn btn-primary" [disabled]="contactForm.invalid">Send</button>
+   </div>
+</form>
+
+<pre>{{contactForm.value | json}}</pre>
