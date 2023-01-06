@@ -1,0 +1,46 @@
+<!-- Ejercicio 01 -->
+<div class="content d-flex justify-content-center mt-4">
+   <div class="col-md-4 col-sm-4">
+      <p class="text-center text-primary fs-5">USO DE PIPES</p>
+      <div class="form-group mb-2">
+         <label class="mb-1" for="input">Valor: </label>
+         <input type="text" class="form-control" id="input" [(ngModel)]="text">
+      </div>
+      <p>Resultado: {{text | uppercase}}</p>
+   </div>
+</div>
+
+<!-- Ejercicio 02 -->
+<div class="content d-flex justify-content-center  mt-4">
+   <div class="col-md-4 col-sm-4">
+      <p class="text-center text-primary fs-5">CURRENCY PIPES</p>
+      <div class="form-group mb-2">
+         <label class="mb-1" for="input">Valor: $ </label>
+         <input type="text" class="form-control" id="input" [(ngModel)]="quantity">
+      </div>
+      <select class="form-select mb-2" [(ngModel)]="type">
+         <option disabled selected hidden value="">Seleccione una moneda</option>
+         <option value="USD">USD</option>
+         <option value="EUR">EUR</option>
+         <option value="GBP">GBP</option>
+         <option value="JPY">JPY</option>
+         <option value="AUD">AUD</option>
+         <option value="CAD">CAD</option>
+         <option value="CNY">CNY</option>
+         <option value="COP">COP</option>
+      </select>
+      <p class="mb-1" [hidden]="quantity == 0">USD: ${{quantity | number: '1.2-2'}}</p>
+      <p [hidden]="type == ''">{{type}}: {{quantity | currency: type}}</p>
+   </div>
+</div>
+
+<!-- Ejercicio 03 -->
+<div class="content d-flex justify-content-center  mt-4">
+   <div class="col-md-4 col-sm-4">
+      <p class="text-center text-primary fs-5">TRANSFORMAR FECHAS</p>
+      <p class="mb-1">01/06/2023 16:30 => {{ "01/06/2023 16:30" | transformDate }}</p>
+      <p class="mb-1">01/06/2023 12:00 => {{ "01/06/2023 12:00" | transformDate }}</p>
+      <p class="mb-1">01/05/2023 15:00 => {{ "01/05/2023 15:00" | transformDate }}</p>
+      <p class="mb-1">12/26/2022 15:00 => {{ "12/26/2022 15:00" | transformDate }}</p>
+   </div>
+</div>
