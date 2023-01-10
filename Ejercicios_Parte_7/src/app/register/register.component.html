@@ -1,0 +1,9 @@
+<div class="root">
+   <div class="main-container" [ngStyle]="{'height': !form ? 'auto' : '500px'}">
+      <h1 class="text-center text-primary mb-4">Registro de Personas</h1>
+      <div class="col-lg-12 col-md-8 col-sm-10 mx-auto">
+         <app-output [values]="form"></app-output>
+         <app-form (formSubmit)="onSubmit($event)"></app-form>
+      </div>
+   </div>
+</div>
