@@ -1,0 +1,11 @@
+.output {
+   background: lightgreen;
+   color: green;
+   font-family: monospace;
+   font-size: 12px;
+   margin-bottom: 1em;
+}
+p {
+   margin: 0;
+   padding: 10px 10px;
+}
