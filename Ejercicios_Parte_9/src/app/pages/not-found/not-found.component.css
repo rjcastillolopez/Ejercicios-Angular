@@ -1,0 +1,19 @@
+.container {
+   width: 350px;
+   margin: 0 auto;
+   margin-top: 80px;
+   font-family: "Roboto", sans-serif;
+   text-align: center;
+}
+h1 {
+   font-size: 80px;
+   font-weight: 800;
+}
+h2 {
+   font-size: 25px;
+   margin-bottom: 15px;
+}
+p {
+   line-height: 1.5;
+   font-size: 14px;
+}

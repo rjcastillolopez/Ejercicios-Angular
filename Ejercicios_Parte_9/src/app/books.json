@@ -1,0 +1,100 @@
+{
+   "books": [
+      {
+         "id": 1,
+         "title": "Pride and Prejudice",
+         "author": "Jane Austen",
+         "genre": "Society novel",
+         "description": "A classic of English literature about how pride and prejudice can affect romantic relationships.",
+         "image": "https://books.google.com/books/content?id=5GbdTc9OJ78C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70H5Rhh3KvtqCaYZBL-dHWbmtZs6ExgjVJKEm5t4DMsMzt39_5zULI8pomqMnRUoyjvU6-DChrHhYHtIusdU1OKARjvv_uizxAesuU6kvbVrd8x_6Ihrdy7wbBSD6PqV3Vqx_JM"
+      },
+      {
+         "id": 2,
+         "title": "One Hundred Years of Solitude",
+         "author": "Gabriel Garcia Marquez",
+         "genre": "Magical realism",
+         "description": "The story of six generations of a Colombian family struggling to maintain their roots while trying to survive in a changing world.",
+         "image": "https://books.google.com/books/content?id=w0-zUL-87uAC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70jGCP5bhUmkF17j1WHcLNbeGhVnCX-UTR813tBeXOWcBG0Z9s0xzxq0rGHxfCUVv6Win4wVvSclsIYcV7oyymlIIRs1gngJC4Vdfe7Sx1YkFauv_WzbV19rqX-c34Rqwy5WMqo"
+      },
+      {
+         "id": 3,
+         "title": "The Great Gatsby",
+         "author": "F. Scott Fitzgerald",
+         "genre": "Historical novel",
+         "description": "A story of love and desperation set in the jazz age of New York during Prohibition.",
+         "image": "https://books.google.com/books/content?id=-CkVEAAAQBAJ&printsec=frontcover&img=1&zoom=5"
+      },
+      {
+         "id": 4,
+         "title": "To Kill a Mockingbird",
+         "author": "Harper Lee",
+         "genre": "Society novel",
+         "description": "The story of Scout Finch, an Alabama girl who learns the truth about intolerance and justice in the 1930s.",
+         "image": "https://books.google.com/books/content?id=DXOePwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71LG3JAGvw9g_IzAiFoffDXR2BBpzVP_Fsn4Npn9dQrnxmWB1ciS8BcDK6lJ_A6fd5Q8OmBJo7Bs9Oqz-r7xqn-OtZhtyumW56drZNrDwUYhdxoMAbcnAVQ-vQsBKGuBVm_4Iqj"
+      },
+      {
+         "id": 5,
+         "title": "The Metamorphosis",
+         "author": "Franz Kafka",
+         "genre": "Existential fiction",
+         "description": "The story of Gregor Samsa, a man who wakes up one morning turned into an insect, and how this affects his family and life.",
+         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR072_SIya1CCcxVXRuQN8W0pq_HQE7ie_V6szpPM087qZJBE0F9qaXFJoKsWBafhrayQI&usqp=CAU"
+      },
+      {
+         "id": 6,
+         "title": "The Catcher in the Rye",
+         "author": "J.D. Salinger",
+         "genre": "Bildungsroman",
+         "description": "The story of Holden Caulfield, a teenage outcast who's kicked out of his prep school and wanders around New York City.",
+         "image": "https://books.google.com/books/content?id=-8RSLgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70XI-vk6NtqQoNGvsrNfV95vHx4VlPHyvnaqp3eRacGqOHKUHh3iHzPjgLAICesng-QPbie_Yb6D35JYz2bFxuYrl175pKSznKSFG7llP-80UBYdM4qtWtlv0tR2dtJP4Fkf0u_"
+      },
+      {
+         "id": 7,
+         "title": "The Adventures of Huckleberry Finn",
+         "author": "Mark Twain",
+         "genre": "Adventure novel",
+         "description": "The story of Huck Finn, a young boy who fakes his own death to escape his abusive father and goes on a journey down the Mississippi river with a runaway slave.",
+         "image": "https://books.google.com/books/content?id=7bU4AAAAMAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE708KL2a1xVijTgvKSFiOt0jBXxeVzzhOkjOcObL20SYYktEb3g0OHehCr6kWvOa56VzXTEFW6K9nURI7IoPW605yFw5TikgDkeOKU7a-GxQzDlGAVU51FHVPCM4fjRz4v1cEpXs"
+      },
+      {
+         "id": 8,
+         "title": "The Stranger",
+         "author": "Albert Camus",
+         "genre": "Existential novel",
+         "description": "The story of Meursault, a detached and emotionally apathetic man who becomes embroiled in a murder trial.",
+         "image": "https://books.google.com/books/content?id=CAPYAAAAMAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70YB87DNx6G2XTuQCbvyNRlPRYGE2sGuHLYOdXcyEpygWLK6CmdAnpl0f1LKw_D_7MDwBpCWeB29ysCiwB2wEjDJdDDm2GhqmeCW3nxTkzm1dz-bYfZa2w8tAzM5pIrnSKcks7d"
+      },
+      {
+         "id": 9,
+         "title": "The Bell Jar",
+         "author": "Sylvia Plath",
+         "genre": "Semi-autobiographical novel",
+         "description": "The story of Esther Greenwood, a young woman who becomes increasingly disillusioned with her life and descends into mental illness.",
+         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM-zO1IHISRLaZ53KDPuUuCBPRcJDbPIWsONPrwEydMqtuNwokHdPZg8I0yjYcMQZ6Lww&usqp=CAU"
+      },
+      {
+         "id": 10,
+         "title": "The Handmaid's Tale",
+         "author": "Margaret Atwood",
+         "genre": "Speculative fiction",
+         "description": "A dystopian novel set in a near-future society where women's rights have been severely curtailed and they are forced into reproductive servitude.",
+         "image": "https://books.google.com/books/content?id=wzqpaDJe5dIC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73XBTzGEpTGAWAmS2yXcIy0yDt4KliSzcZe--8xBm_P9s67Tms3CCOZjsuRePfpD2BYrZs4utkuAej0xxE0YgUEf3aLPdRegpx1OaroGfC_0-3ihec6S6k9gB7NZkDhdoPgkYUC"
+      },
+      {
+         "id": 11,
+         "title": "The Yellow Wallpaper",
+         "author": "Charlotte Perkins Gilman",
+         "genre": "Short story",
+         "description": "The story of a woman who is suffering from postpartum depression and is confined to her bedroom by her husband, with disturbing consequences.",
+         "image": "https://books.google.com/books/content?id=z8ANxwEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE714td-oDGqpF14SjT83TcYIacCLel9CLuieNK7YbbqkWG45pC76blH7zbRsj2si5sRFvA2wi7I33Nwezz-7iPr-7rDWDZVQfbCDkiO2sK2GpZkN8RAJ1vO6J4Ow3T0ARHhw8x6G"
+      },
+      {
+         "id": 12,
+         "title": "The Waste Land",
+         "author": "T.S. Eliot",
+         "genre": "Modernist poem",
+         "description": "A landmark of modernist poetry, exploring themes of disillusionment, despair, and the fragmentation of modern society.",
+         "image": "https://books.google.com/books/content?id=u3V4QgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71He9oPj3xcio1HATJOWbrllkHJ3HcOSsX8Mx1QXCrzOEq-pw4UVeTdIh1oe59ivz54CCgL_qu65vE4ubr8xow2EJ4LL8dNJTlRNtFPgvZuSRyf5NX34JhaaCUs1LEZM_BZbmo-"
+      }
+   ]
+}
