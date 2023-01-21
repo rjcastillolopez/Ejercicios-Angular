@@ -1,0 +1,21 @@
+.container {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+.tittle {
+   font-size: 24px;
+   font-weight: bold;
+   text-align: center;
+   margin: 0;
+}
+.content {
+   width: 85%;
+   text-align: center;
+   margin-top: 22px;
+   font-size: 18px;
+   font-weight: normal;
+   line-height: 1.5;
+}

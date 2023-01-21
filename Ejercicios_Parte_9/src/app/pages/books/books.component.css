@@ -1,0 +1,9 @@
+.card img {
+   height: 300px;
+}
+.not-found-item {
+   position: absolute;
+   top: 60%;
+   left: 38%;
+   transform: translate(-50%, -50%);
+}

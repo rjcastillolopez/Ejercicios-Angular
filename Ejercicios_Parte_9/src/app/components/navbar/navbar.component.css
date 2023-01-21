@@ -1,0 +1,15 @@
+/* Nav bar */
+nav {
+   background-color: #e15282;
+   color: #fff;
+}
+.navbar-nav {
+   padding: 11px 20px;
+}
+.nav-link {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.nav-link {
+   color: #fff;
+}
