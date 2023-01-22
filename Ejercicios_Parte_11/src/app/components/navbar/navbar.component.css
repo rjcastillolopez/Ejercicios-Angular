@@ -1,0 +1,25 @@
+/* Nav bar */
+nav {
+   background-color: #90e0ef;
+   color: #fff;
+}
+.navbar-nav {
+   padding: 11px 20px;
+}
+.nav-link {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.nav-link {
+   color: #fff;
+}
+button {
+   background-color: #00b4d8;
+   color: #fff;
+   border-radius: 8px;
+   border: none;
+   width: 100px;
+}
+button:hover {
+   background-color: #48cae4;
+}
